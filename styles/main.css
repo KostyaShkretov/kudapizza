@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  color: #191919;
+}
+a {
+  text-decoration: none;
+}
+.info {
+  margin-block: 60px;
+}
+.info h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600px;
+  margin-bottom: 16px;
+}
+.info h5 {
+  font-size: 16px;
+  font-weight: 700px;
+}
+.info p {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+.info__container {
+  max-width: 850px;
+  width: calc(100% - 60px);
+  margin: 0 auto;
+}
+.info__link {
+  color: #ff7010;
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 700px;
+  cursor: pointer;
+}
+.info__text {
+    max-height: 310px;
+    overflow: hidden;
+}
+.info__text--active {
+max-height: 1000px;
+}
